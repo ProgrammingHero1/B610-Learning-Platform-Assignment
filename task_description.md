@@ -67,6 +67,10 @@ You have to create a website to provide a quality learning platform in the domai
 
 1. Explore & use these react packages in your website : react-icons, react-image-magnify, react-awesome-slider, react-loader etc.
 
+1. Feel free to add some relevant FAQ in your FAQ route
+
+1. If you have sometime, try to implement dark/light theme toggle. 
+
 1. Optional but highly recommended: A detailed, realistic, complex & stylish footer.
 2. When a user clicks on their profile image, it will redirect to the user details page. This page will show the user's detailed information (name, email & profile picture). The logged-in user can update their profile(image, displayName) by clicking on a button. (Alternatively, The profile edit form could be in a modal)
 3. Add something extra of your own. This will help you in the future to differentiate your project from others.
