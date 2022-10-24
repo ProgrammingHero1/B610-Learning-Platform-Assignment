@@ -88,10 +88,11 @@ You have to create a website to provide a quality learning platform in the domai
 
 ### Some Guidelines:
 
-1. Do not waste much time on the website idea. Just spend 30 minutes deciding, find a sample website, and start working on it.
+1. Do not waste much time on the website idea. Just spend 15-20 minutes deciding, find a sample website, and start working on it.
 2. Do not waste much time finding the right image. You can always start with a simple idea. Make the website and then add different images.
 3. Don't look at the overall task list. Just take one task at a time and do it. Once it's done, pick the next task. If you get stuck on a particular task, move on to the next task.
 4. Stay calm, think before coding, and work sequentially. You will make it.
+5. Be strategic about electricity issue. 
 
 ---
 ### No Pain, No gain:
