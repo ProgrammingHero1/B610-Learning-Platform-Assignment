@@ -50,6 +50,8 @@ You have to create a website to provide a quality learning platform in the domai
 
 1. Create a 404 page.
 
+1. Make sure your site looks reasonable. The design and color selection is meaningful. 
+
 2. Clean and organized Code (folder structure). Organize components with meaningful names, and add comments when needed.
 
 
