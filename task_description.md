@@ -6,57 +6,60 @@ You have to create a website to provide a quality learning platform in the domai
 
 1. Give your website a name. The name should appear on the website and be displayed on the website's title.
 
-1. It will contain a navbar with the options: website logo, website name, upcoming courses, FAQ, toggle theme (dark/ light), and User Profile Picture (or login).
-
-1. Clicking "FAQ" will redirect to a new public route. That route provides 5 frequently asked questions & answers about your website.
+1. It will contain a navbar with the options: website logo, website name, Courses, FAQ, Blog, toggle theme (dark/ light), and User Profile Picture (or login). The user profile picture on the navbar is conditional. If the user is signed in, the navbar will show the profile pic. The user's name will be visible when the mouse is in the picture.
 
 1. After clicking "Log in," it will redirect to a login page. 3 types of login systems you have to implement: Email & password login, Google, and GitHub login. The login page will have a toggle option to go to the register page.
 
 1. In your Email and Password registration form, there should be an input box for "Full name," where the user will type their full name. Other fields will be Photo URL, Email, and Password.
 
-1. The user profile picture on the navbar is conditional. If the user is signed in, the navbar will show the profile pic. The user's name will be visible when the mouse is in the picture.
+1. Clicking "Courses" in the navbar (You can change this name to any meaningful name according to your design, but the purpose of this button should be the same according to our description) will redirect to a page that shows the courses. (Creating a fake dataset is necessary here). You have to create at least 6 courses (fake data). Design & course information is all up to you. (Load data from the server side - must). You can create one, two, or more courses in a row. 
 
-1. Clicking "Upcoming Courses" in the navbar (You can change this name to any meaningful name according to your design, but the purpose of this button should be the same according to our description) will redirect to a page that shows the advertisements of upcoming courses. (Creating a fake dataset is necessary here). You have to create at least 6 courses (fake data). Design & course information is all up to you. (Load data from the server side - must)
+1. The Courses page will be divided into two parts: a sidebar (either on the left side or on the right side according to your design) & content detail section. In the sidebar, there will be at least 6 options (course options or course categories, or anything else). Every option is clickable. (You will need to create necessary fake data)
 
-1. the page will be divided into two parts: a sidebar (on the left side/ right side according to your design) & content detail section
+1. When you click an option (course card or an option on the left/right sidebar), It will take you to the course detail page. Content details depend on you. But, it must include a header, introductory description/course body, and one image. All details must be relevant to the topic. You may include a bullet list/ table/ chart if needed.
 
-1. In the sidebar, there will be at least 6 options (like JS-Home, JS-Overview, JS-Syntax, JS-Variables, JS-Operators, etc.). Every option is clickable. (A fake dataset is necessary here to create)
+1. The course/content detail section will have a heading at the top of the page. The heading will have an icon/ button on the side of the heading. When you click on that button, it will create a pdf and will be downloaded ( This will give you more fun. Try out this after completing all of your tasks. Hint: Explore react-to-pdf package). Your pdf should contain some relevant information about the course details.
 
-1. When you click an option, the relevant detail will be shown in the content detail section. (A fake dataset is necessary here. Content details depend on you. But, it must include an introductory description, one image, course/tutorial content body. All details must be relevant to the topic. )
-Optional: You can include a bullet list/ table/ chart if needed.
-
-1. The content detail section will have a heading on that topic at the top of the page.
-
-1. There will be an icon/ button on the side of the heading in the content detail. When you click on that button, the content detail will be converted to a pdf and will be downloaded ( This will give you more fun. Try out this after completing all of your tasks. Hint: Explore react-to-pdf package)
-
-1. There will be a button at the bottom of the content detail called "Get premium access".
-
-1. Clicking the button will take the user to the Checkout route. This route will be a private/protected route. Please ensure that the private route redirects to the login page if the user is not logged in. After login, the user will be redirected to the checkout page.
+1. There will be a button at the bottom of the content detail called "Get premium access." Clicking the button will take the user to the Checkout route. This route will be a private/protected route. Please ensure that the private route redirects to the login page if the user is not logged in. After login, the user will be redirected to the checkout page.
 
 1. Your checkout page will be a dynamic route with route parameters having the id of the content that the user had clicked. On the checkout page, you will display the name based on the id. 
-2. optional: If possible, add a simple form that will have fields for user name, user email, address, and phone number. Once the user submits the form, you will display a thank you message. Please note. This task is optional
+
 
 1. Use the Environment variable to hide the firebase key.
 
 1. If you reload the protected/private route (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
 
 ### Bonus: 
-1. Minimum 12 meaningful git commits.
+1. Minimum 12 meaningful git commits on the client-side repository and minimum of 5 meaningful commits on the server-side repository.
 
-1. Make your website mobile & tablet responsive.
+1. Make your website mobile & desktop responsive (tablet responsive is optional).
 
 1. Display errors when the user's email address or password doesn't match.
 
-1. Add a link for Password reset (use toast/ alert), (Don't worry if the email goes to the spam folder.)
+1. Clicking "Blog" will redirect to a public route. That route will have 4 questions & answers.
+    
+    4.1 what is `cors`?
+    
+    4.2 Why are you using `firebase`? What other options do you have to implement authentication?
+
+    4.3 How does the private route work?
+    
+    4.4 What is Node? How does Node work?
 
 1. Meaningful readme.md file containing your website name and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
 
 1. Create a 404 page.
-2. Clean and organized Code. Organize components and add comments when needed
+
+2. Clean and organized Code (folder structure). Organize components with meaningful names, and add comments when needed.
 
 
 ### Optional (But Highly Recommended):
-1. Add "active route" to indicate the route which you are visiting.
+
+1. Add a simple form that will have fields for user name, user email, address, and phone number. Once the user submits the form, you will display a thank you message. Please note. This task is optional
+
+5. Add a link for Password reset (use toast/ alert), (Don't worry if the email goes to the spam folder.)
+
+3. Add "active route" to indicate the route which you are visiting.
 
 1. Optional: Use react-hook-form package to make forms on your website
 
