@@ -55,15 +55,11 @@ You have to create a website to provide a quality learning platform in the domai
 
 ### Optional (But Highly Recommended):
 
-1. Add a simple form that will have fields for user name, user email, address, and phone number. Once the user submits the form, you will display a thank you message. Please note. This task is optional
-
-5. Add a link for Password reset (use toast/ alert), (Don't worry if the email goes to the spam folder.)
+1. Add a link for Password reset (use toast/ alert), (Don't worry if the email goes to the spam folder.)
 
 3. Add "active route" to indicate the route which you are visiting.
 
 1. Use react-hook-form package to make forms on your website
-
-1. Add something extra of your own. This will help you in the future to differentiate your project from others.
 
 1. Explore & use these react packages in your website : react-icons, react-image-magnify, react-awesome-slider, react-loader etc.
 
