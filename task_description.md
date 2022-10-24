@@ -46,7 +46,7 @@ You have to create a website to provide a quality learning platform in the domai
     
     4.4 What is Node? How does Node work?
 
-1. Meaningful readme.md file containing your website name and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project.
+1. (client-side repo) Meaningful readme.md file containing your website name and link to your live site. And at least five bullet points mentioning your website's different features and functionality. And a list of technologies (frameworks, libraries) used in your project. (added a meaningful readme.md file for the server-side repo is optional)
 
 1. Create a 404 page.
 
@@ -61,11 +61,11 @@ You have to create a website to provide a quality learning platform in the domai
 
 3. Add "active route" to indicate the route which you are visiting.
 
-1. Optional: Use react-hook-form package to make forms on your website
+1. Use react-hook-form package to make forms on your website
 
-1. Optional: Add something extra of your own. This will help you in the future to differentiate your project from others.
+1. Add something extra of your own. This will help you in the future to differentiate your project from others.
 
-1. Optional: Explore & use these react packages in your website : react-icons, react-image-magnify, react-awesome-slider, react-loader etc.
+1. Explore & use these react packages in your website : react-icons, react-image-magnify, react-awesome-slider, react-loader etc.
 
 1. Optional but highly recommended: A detailed, realistic, complex & stylish footer.
 2. When a user clicks on their profile image, it will redirect to the user details page. This page will show the user's detailed information (name, email & profile picture). The logged-in user can update their profile(image, displayName) by clicking on a button. (Alternatively, The profile edit form could be in a modal)
