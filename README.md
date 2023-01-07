@@ -6,3 +6,5 @@ Click here for the private repo: [https://classroom.github.com/a/PVsqABQ3](https
 
 ## [Server Side Private repo link](https://classroom.github.com/a/-LAr0982)
 Click here for the private repo: [https://classroom.github.com/a/-LAr0982](https://classroom.github.com/a/-LAr0982)
+
+Live LinK:https://magnificent-basbousa-c78421.netlify.app
